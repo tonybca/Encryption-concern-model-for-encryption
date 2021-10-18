@@ -1,0 +1,8 @@
+* key storage
+	i'm thinking jobID-public/private key as key-value pair	
+	but how to use hashmap of non-primitive types as attributes in touchcore...?
+	if we cannot do that how to store keys?
+	*maybe we should do 3-des which does not involve storing the keys lol*
+
+* passing input parameters
+	on second thought, the wrapper method does not allow access of the input parameters (maybe it's a touchcore problem)

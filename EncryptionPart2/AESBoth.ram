@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_r0sBkKRBEeuCzcakKy80Jg" name="AESBoth">
+  <realizes href="EncryptionPart2.core#_9r1bwJ9_EeuUlr6vFoqk0w"/>
+  <realizes href="EncryptionPart2.core#_6xoOEJ93Eeu8xIpgppOh4A"/>
+  <realizes href="EncryptionPart2.core#_76cQQJ93Eeu8xIpgppOh4A"/>
+  <coreConcern href="EncryptionPart2.core#_14lDMJ9xEeu1_9b-Ks1f5w"/>
+  <structuralView xmi:id="_r0sBkaRBEeuCzcakKy80Jg">
+    <types xsi:type="ram:RVoid" xmi:id="_r0sBkqRBEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RAny" xmi:id="_r0sBk6RBEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_r0sBlKRBEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RInt" xmi:id="_r0sBlaRBEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RChar" xmi:id="_r0sBlqRBEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RString" xmi:id="_r0sBl6RBEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_r0sBmKRBEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_r0sBmaRBEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RLong" xmi:id="_r0sBmqRBEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RByte" xmi:id="_r0sBm6RBEeuCzcakKy80Jg"/>
+  </structuralView>
+  <instantiations xmi:id="_r0sBnKRBEeuCzcakKy80Jg">
+    <source xsi:type="ram:Aspect" href="EncryptionPart2.ram#_UHpC0J9yEeu1_9b-Ks1f5w"/>
+  </instantiations>
+  <instantiations xmi:id="_r0sBnaRBEeuCzcakKy80Jg">
+    <source xsi:type="ram:Aspect" href="AESDecrypt.ram#_P7P74KHYEeult-ctDA9WiA"/>
+  </instantiations>
+  <instantiations xmi:id="_r0sBnqRBEeuCzcakKy80Jg">
+    <source xsi:type="ram:Aspect" href="AES.ram#_EW2iQJ-AEeuUlr6vFoqk0w"/>
+  </instantiations>
+  <layout xmi:id="_r0sBn6RBEeuCzcakKy80Jg">
+    <containers xmi:id="_r0sBoKRBEeuCzcakKy80Jg" key="_r0sBkaRBEeuCzcakKy80Jg"/>
+  </layout>
+</ram:Aspect>

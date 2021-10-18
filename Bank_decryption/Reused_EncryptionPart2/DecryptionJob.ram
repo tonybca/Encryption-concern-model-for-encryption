@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_qLOGYJ-AEeuUlr6vFoqk0w" name="DecryptionJob">
+  <realizes href="EncryptionPart2.core#_76cQQJ93Eeu8xIpgppOh4A"/>
+  <coreConcern href="EncryptionPart2.core#_14lDMJ9xEeu1_9b-Ks1f5w"/>
+  <structuralView xmi:id="_qLOGYZ-AEeuUlr6vFoqk0w">
+    <classes xsi:type="ram:Class" xmi:id="_-8sxQJ-AEeuUlr6vFoqk0w" name="JobType" dataType="true">
+      <attributes xmi:id="_U2NHEKHlEeult-ctDA9WiA" name="decryption" type="_qLOGZJ-AEeuUlr6vFoqk0w"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_qLOGYp-AEeuUlr6vFoqk0w"/>
+    <types xsi:type="ram:RAny" xmi:id="_qLOGY5-AEeuUlr6vFoqk0w"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_qLOGZJ-AEeuUlr6vFoqk0w"/>
+    <types xsi:type="ram:RInt" xmi:id="_qLOGZZ-AEeuUlr6vFoqk0w"/>
+    <types xsi:type="ram:RChar" xmi:id="_qLOGZp-AEeuUlr6vFoqk0w"/>
+    <types xsi:type="ram:RString" xmi:id="_qLOGZ5-AEeuUlr6vFoqk0w"/>
+    <types xsi:type="ram:RDouble" xmi:id="_qLOGaJ-AEeuUlr6vFoqk0w"/>
+    <types xsi:type="ram:RFloat" xmi:id="_qLOGaZ-AEeuUlr6vFoqk0w"/>
+    <types xsi:type="ram:RLong" xmi:id="_qLOGap-AEeuUlr6vFoqk0w"/>
+    <types xsi:type="ram:RByte" xmi:id="_qLOGa5-AEeuUlr6vFoqk0w"/>
+  </structuralView>
+  <instantiations xmi:id="_qLOGbJ-AEeuUlr6vFoqk0w">
+    <source xsi:type="ram:Aspect" href="Job.ram#_41cAcJ9yEeu1_9b-Ks1f5w"/>
+  </instantiations>
+  <layout xmi:id="_qLOGbZ-AEeuUlr6vFoqk0w">
+    <containers xmi:id="_qLOGbp-AEeuUlr6vFoqk0w" key="_qLOGYZ-AEeuUlr6vFoqk0w">
+      <value xmi:id="_-8umcJ-AEeuUlr6vFoqk0w" key="_-8sxQJ-AEeuUlr6vFoqk0w">
+        <value xmi:id="_-8umcZ-AEeuUlr6vFoqk0w" x="1587.0" y="340.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

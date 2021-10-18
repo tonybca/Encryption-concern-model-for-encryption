@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_TALrgJ9yEeu1_9b-Ks1f5w" name="Association&lt;ManyOpposite,Association,Many,HashSet,Unordered,UniquePlainBidirectional>">
+  <structuralView xmi:id="_TALrgZ9yEeu1_9b-Ks1f5w">
+    <classes xsi:type="ram:Class" xmi:id="_TALrgp9yEeu1_9b-Ks1f5w" name="Associated" partiality="public">
+      <associationEnds xmi:id="_TALrg59yEeu1_9b-Ks1f5w" name="myCollectionOfAssociated" lowerBound="1" navigable="false" assoc="_TALrp59yEeu1_9b-Ks1f5w"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_TALrhJ9yEeu1_9b-Ks1f5w" name="Object" instanceClassName="java.lang.Object"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_TALrhZ9yEeu1_9b-Ks1f5w" name="HashSet" visibility="public" instanceClassName="java.util.HashSet">
+      <operations xmi:id="_TALrhp9yEeu1_9b-Ks1f5w" name="HashSet" visibility="public" returnType="_TALrhZ9yEeu1_9b-Ks1f5w" operationType="Constructor"/>
+      <operations xmi:id="_TALrh59yEeu1_9b-Ks1f5w" name="add" visibility="public" returnType="_TALrqp9yEeu1_9b-Ks1f5w">
+        <parameters xmi:id="_TALriJ9yEeu1_9b-Ks1f5w" name="arg0" type="_TALrgp9yEeu1_9b-Ks1f5w"/>
+      </operations>
+      <operations xmi:id="_TALriZ9yEeu1_9b-Ks1f5w" name="remove" visibility="public" returnType="_TALrqp9yEeu1_9b-Ks1f5w">
+        <parameters xmi:id="_TALrip9yEeu1_9b-Ks1f5w" name="arg0" type="_TALrhJ9yEeu1_9b-Ks1f5w"/>
+      </operations>
+      <operations xmi:id="_TALri59yEeu1_9b-Ks1f5w" name="contains" visibility="public" returnType="_TALrqp9yEeu1_9b-Ks1f5w">
+        <parameters xmi:id="_TALrjJ9yEeu1_9b-Ks1f5w" name="arg0" type="_TALrhJ9yEeu1_9b-Ks1f5w"/>
+      </operations>
+      <operations xmi:id="_TALrjZ9yEeu1_9b-Ks1f5w" name="size" visibility="public" returnType="_TALrq59yEeu1_9b-Ks1f5w"/>
+      <operations xmi:id="_TALrjp9yEeu1_9b-Ks1f5w" name="remove" partiality="concern" extendedVisibility="package" returnType="_TALrqp9yEeu1_9b-Ks1f5w">
+        <parameters xmi:id="_TALrj59yEeu1_9b-Ks1f5w" name="a" type="_TALrpZ9yEeu1_9b-Ks1f5w"/>
+      </operations>
+      <operations xmi:id="_TALrkJ9yEeu1_9b-Ks1f5w" name="create" partiality="concern" extendedVisibility="package" returnType="_TALrhZ9yEeu1_9b-Ks1f5w" operationType="Constructor"/>
+      <operations xmi:id="_TALrkZ9yEeu1_9b-Ks1f5w" name="contains" partiality="concern" extendedVisibility="package" returnType="_TALrqp9yEeu1_9b-Ks1f5w">
+        <parameters xmi:id="_TALrkp9yEeu1_9b-Ks1f5w" name="o" type="_TALrpZ9yEeu1_9b-Ks1f5w"/>
+      </operations>
+      <associationEnds xmi:id="_TALrk59yEeu1_9b-Ks1f5w" name="myData" lowerBound="1" navigable="false" assoc="_TALrpp9yEeu1_9b-Ks1f5w"/>
+      <associationEnds xmi:id="_TALrlJ9yEeu1_9b-Ks1f5w" name="elements" upperBound="-1" referenceType="Aggregation" assoc="_TALrp59yEeu1_9b-Ks1f5w"/>
+      <typeParameters xmi:id="_TALrlZ9yEeu1_9b-Ks1f5w" name="E" genericType="_TALrgp9yEeu1_9b-Ks1f5w"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_TALrlp9yEeu1_9b-Ks1f5w" name="Data" partiality="public" visibility="public">
+      <operations xmi:id="_TALrl59yEeu1_9b-Ks1f5w" name="add" visibility="public" returnType="_TALrqp9yEeu1_9b-Ks1f5w">
+        <parameters xmi:id="_TALrmJ9yEeu1_9b-Ks1f5w" name="a" type="_TALrgp9yEeu1_9b-Ks1f5w"/>
+      </operations>
+      <operations xmi:id="_TALrmZ9yEeu1_9b-Ks1f5w" name="addSimple" extendedVisibility="protected" returnType="_TALrqp9yEeu1_9b-Ks1f5w">
+        <parameters xmi:id="_TALrmp9yEeu1_9b-Ks1f5w" name="a" type="_TALrgp9yEeu1_9b-Ks1f5w"/>
+      </operations>
+      <operations xmi:id="_TALrm59yEeu1_9b-Ks1f5w" name="removeSimple" extendedVisibility="protected" returnType="_TALrqp9yEeu1_9b-Ks1f5w">
+        <parameters xmi:id="_TALrnJ9yEeu1_9b-Ks1f5w" name="a" type="_TALrgp9yEeu1_9b-Ks1f5w"/>
+      </operations>
+      <operations xmi:id="_TALrnZ9yEeu1_9b-Ks1f5w" name="remove" visibility="public" returnType="_TALrqp9yEeu1_9b-Ks1f5w">
+        <parameters xmi:id="_TALrnp9yEeu1_9b-Ks1f5w" name="a" type="_TALrgp9yEeu1_9b-Ks1f5w"/>
+      </operations>
+      <operations xmi:id="_TALrn59yEeu1_9b-Ks1f5w" name="create" partiality="public" visibility="public" returnType="_TALrlp9yEeu1_9b-Ks1f5w" operationType="Constructor"/>
+      <operations xmi:id="_TALroJ9yEeu1_9b-Ks1f5w" name="contains" visibility="public" returnType="_TALrqp9yEeu1_9b-Ks1f5w">
+        <parameters xmi:id="_TALroZ9yEeu1_9b-Ks1f5w" name="a" type="_TALrgp9yEeu1_9b-Ks1f5w"/>
+      </operations>
+      <operations xmi:id="_TALrop9yEeu1_9b-Ks1f5w" name="size" visibility="public" returnType="_TALrq59yEeu1_9b-Ks1f5w"/>
+      <operations xmi:id="_TALro59yEeu1_9b-Ks1f5w" name="getAssociated" visibility="public" returnType="_TALrhZ9yEeu1_9b-Ks1f5w"/>
+      <associationEnds xmi:id="_TALrpJ9yEeu1_9b-Ks1f5w" name="collection" lowerBound="1" referenceType="Composition" assoc="_TALrpp9yEeu1_9b-Ks1f5w"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_TALrpZ9yEeu1_9b-Ks1f5w" name="Object" partiality="concern"/>
+    <associations xmi:id="_TALrpp9yEeu1_9b-Ks1f5w" name="Data_CollectionOfAssociated" ends="_TALrpJ9yEeu1_9b-Ks1f5w _TALrk59yEeu1_9b-Ks1f5w"/>
+    <associations xmi:id="_TALrp59yEeu1_9b-Ks1f5w" name="CollectionOfAssociated_Associated" ends="_TALrlJ9yEeu1_9b-Ks1f5w _TALrg59yEeu1_9b-Ks1f5w"/>
+    <types xsi:type="ram:RVoid" xmi:id="_TALrqJ9yEeu1_9b-Ks1f5w"/>
+    <types xsi:type="ram:RAny" xmi:id="_TALrqZ9yEeu1_9b-Ks1f5w"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_TALrqp9yEeu1_9b-Ks1f5w"/>
+    <types xsi:type="ram:RInt" xmi:id="_TALrq59yEeu1_9b-Ks1f5w"/>
+    <types xsi:type="ram:RChar" xmi:id="_TALrrJ9yEeu1_9b-Ks1f5w"/>
+    <types xsi:type="ram:RString" xmi:id="_TALrrZ9yEeu1_9b-Ks1f5w"/>
+    <types xsi:type="ram:RDouble" xmi:id="_TALrrp9yEeu1_9b-Ks1f5w"/>
+    <types xsi:type="ram:RFloat" xmi:id="_TALrr59yEeu1_9b-Ks1f5w"/>
+    <types xsi:type="ram:RLong" xmi:id="_TALrsJ9yEeu1_9b-Ks1f5w"/>
+    <types xsi:type="ram:RByte" xmi:id="_TALrsZ9yEeu1_9b-Ks1f5w"/>
+  </structuralView>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_TALrsp9yEeu1_9b-Ks1f5w" specifies="_TALrmZ9yEeu1_9b-Ks1f5w">
+    <specification xmi:id="_TALrs59yEeu1_9b-Ks1f5w">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALrtJ9yEeu1_9b-Ks1f5w" covered="_TALrxp9yEeu1_9b-Ks1f5w" message="_TALryZ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALrtZ9yEeu1_9b-Ks1f5w" covered="_TALrxp9yEeu1_9b-Ks1f5w" message="_TALr1J9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALrtp9yEeu1_9b-Ks1f5w" covered="_TALryJ9yEeu1_9b-Ks1f5w" message="_TALr1J9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALrt59yEeu1_9b-Ks1f5w" covered="_TALryJ9yEeu1_9b-Ks1f5w" message="_TALr159yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALruJ9yEeu1_9b-Ks1f5w" covered="_TALrxp9yEeu1_9b-Ks1f5w" message="_TALr159yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:CombinedFragment" xmi:id="_TALruZ9yEeu1_9b-Ks1f5w" covered="_TALrxp9yEeu1_9b-Ks1f5w" interactionOperator="opt">
+        <operands xmi:id="_TALrup9yEeu1_9b-Ks1f5w">
+          <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALru59yEeu1_9b-Ks1f5w" covered="_TALrxp9yEeu1_9b-Ks1f5w" message="_TALr2J9yEeu1_9b-Ks1f5w"/>
+          <interactionConstraint xsi:type="ram:OpaqueExpression" xmi:id="_TALrvJ9yEeu1_9b-Ks1f5w" body="contains" language="java"/>
+        </operands>
+      </fragments>
+      <fragments xsi:type="ram:CombinedFragment" xmi:id="_TALrvZ9yEeu1_9b-Ks1f5w" covered="_TALrxp9yEeu1_9b-Ks1f5w" interactionOperator="opt">
+        <operands xmi:id="_TALrvp9yEeu1_9b-Ks1f5w">
+          <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALrv59yEeu1_9b-Ks1f5w" covered="_TALrxp9yEeu1_9b-Ks1f5w" message="_TALrzp9yEeu1_9b-Ks1f5w"/>
+          <interactionConstraint xsi:type="ram:OpaqueExpression" xmi:id="_TALrwJ9yEeu1_9b-Ks1f5w" body="a == null" language="java"/>
+        </operands>
+      </fragments>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALrwZ9yEeu1_9b-Ks1f5w" covered="_TALrxp9yEeu1_9b-Ks1f5w" message="_TALr0J9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALrwp9yEeu1_9b-Ks1f5w" covered="_TALrx59yEeu1_9b-Ks1f5w" message="_TALr0J9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALrw59yEeu1_9b-Ks1f5w" covered="_TALrx59yEeu1_9b-Ks1f5w" message="_TALr059yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALrxJ9yEeu1_9b-Ks1f5w" covered="_TALrxp9yEeu1_9b-Ks1f5w" message="_TALr059yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALrxZ9yEeu1_9b-Ks1f5w" covered="_TALrxp9yEeu1_9b-Ks1f5w" message="_TALrzJ9yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALrxp9yEeu1_9b-Ks1f5w" represents="_TALr2p9yEeu1_9b-Ks1f5w" coveredBy="_TALrtJ9yEeu1_9b-Ks1f5w _TALrxZ9yEeu1_9b-Ks1f5w _TALrvZ9yEeu1_9b-Ks1f5w _TALrv59yEeu1_9b-Ks1f5w _TALrwZ9yEeu1_9b-Ks1f5w _TALrxJ9yEeu1_9b-Ks1f5w _TALrtZ9yEeu1_9b-Ks1f5w _TALruJ9yEeu1_9b-Ks1f5w _TALruZ9yEeu1_9b-Ks1f5w _TALru59yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALrx59yEeu1_9b-Ks1f5w" represents="_TALrpJ9yEeu1_9b-Ks1f5w" coveredBy="_TALrwp9yEeu1_9b-Ks1f5w _TALrw59yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALryJ9yEeu1_9b-Ks1f5w" represents="_TALrpJ9yEeu1_9b-Ks1f5w" coveredBy="_TALrtp9yEeu1_9b-Ks1f5w _TALrt59yEeu1_9b-Ks1f5w"/>
+      <messages xmi:id="_TALryZ9yEeu1_9b-Ks1f5w" sendEvent="_TALr259yEeu1_9b-Ks1f5w" receiveEvent="_TALrtJ9yEeu1_9b-Ks1f5w" signature="_TALrmZ9yEeu1_9b-Ks1f5w">
+        <localProperties xsi:type="ram:Attribute" xmi:id="_TALryp9yEeu1_9b-Ks1f5w" name="wasAdded" type="_TALrqp9yEeu1_9b-Ks1f5w"/>
+        <localProperties xsi:type="ram:Attribute" xmi:id="_TALry59yEeu1_9b-Ks1f5w" name="contains" type="_TALrqp9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALrzJ9yEeu1_9b-Ks1f5w" sendEvent="_TALrxZ9yEeu1_9b-Ks1f5w" receiveEvent="_TALr3J9yEeu1_9b-Ks1f5w" signature="_TALrmZ9yEeu1_9b-Ks1f5w" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_TALrzZ9yEeu1_9b-Ks1f5w" value="_TALryp9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALrzp9yEeu1_9b-Ks1f5w" sendEvent="_TALrv59yEeu1_9b-Ks1f5w" receiveEvent="_TALr3Z9yEeu1_9b-Ks1f5w" signature="_TALrmZ9yEeu1_9b-Ks1f5w" messageSort="reply">
+        <returns xsi:type="ram:LiteralBoolean" xmi:id="_TALrz59yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALr0J9yEeu1_9b-Ks1f5w" sendEvent="_TALrwZ9yEeu1_9b-Ks1f5w" receiveEvent="_TALrwp9yEeu1_9b-Ks1f5w" signature="_TALrh59yEeu1_9b-Ks1f5w" assignTo="_TALryp9yEeu1_9b-Ks1f5w">
+        <arguments xmi:id="_TALr0Z9yEeu1_9b-Ks1f5w" parameter="_TALriJ9yEeu1_9b-Ks1f5w">
+          <value xsi:type="ram:StructuralFeatureValue" xmi:id="_TALr0p9yEeu1_9b-Ks1f5w" value="_TALr2p9yEeu1_9b-Ks1f5w"/>
+        </arguments>
+      </messages>
+      <messages xmi:id="_TALr059yEeu1_9b-Ks1f5w" sendEvent="_TALrw59yEeu1_9b-Ks1f5w" receiveEvent="_TALrxJ9yEeu1_9b-Ks1f5w" signature="_TALrh59yEeu1_9b-Ks1f5w" messageSort="reply"/>
+      <messages xmi:id="_TALr1J9yEeu1_9b-Ks1f5w" sendEvent="_TALrtZ9yEeu1_9b-Ks1f5w" receiveEvent="_TALrtp9yEeu1_9b-Ks1f5w" signature="_TALri59yEeu1_9b-Ks1f5w" assignTo="_TALry59yEeu1_9b-Ks1f5w">
+        <arguments xmi:id="_TALr1Z9yEeu1_9b-Ks1f5w" parameter="_TALrkp9yEeu1_9b-Ks1f5w">
+          <value xsi:type="ram:ParameterValue" xmi:id="_TALr1p9yEeu1_9b-Ks1f5w" parameter="_TALrmJ9yEeu1_9b-Ks1f5w"/>
+        </arguments>
+      </messages>
+      <messages xmi:id="_TALr159yEeu1_9b-Ks1f5w" sendEvent="_TALrt59yEeu1_9b-Ks1f5w" receiveEvent="_TALruJ9yEeu1_9b-Ks1f5w" signature="_TALri59yEeu1_9b-Ks1f5w" messageSort="reply"/>
+      <messages xmi:id="_TALr2J9yEeu1_9b-Ks1f5w" sendEvent="_TALru59yEeu1_9b-Ks1f5w" receiveEvent="_TALr3p9yEeu1_9b-Ks1f5w" signature="_TALrl59yEeu1_9b-Ks1f5w" messageSort="reply">
+        <returns xsi:type="ram:LiteralBoolean" xmi:id="_TALr2Z9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <properties xmi:id="_TALr2p9yEeu1_9b-Ks1f5w" name="target" lowerBound="1" type="_TALrlp9yEeu1_9b-Ks1f5w"/>
+      <formalGates xmi:id="_TALr259yEeu1_9b-Ks1f5w" message="_TALryZ9yEeu1_9b-Ks1f5w" name="in_addSimple"/>
+      <formalGates xmi:id="_TALr3J9yEeu1_9b-Ks1f5w" message="_TALrzJ9yEeu1_9b-Ks1f5w" name="out_addSimple"/>
+      <formalGates xmi:id="_TALr3Z9yEeu1_9b-Ks1f5w" message="_TALrzp9yEeu1_9b-Ks1f5w" name="out_addSimple"/>
+      <formalGates xmi:id="_TALr3p9yEeu1_9b-Ks1f5w" message="_TALr2J9yEeu1_9b-Ks1f5w" name="out_add"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_TALr359yEeu1_9b-Ks1f5w" specifies="_TALrm59yEeu1_9b-Ks1f5w">
+    <specification xmi:id="_TALr4J9yEeu1_9b-Ks1f5w">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALr4Z9yEeu1_9b-Ks1f5w" covered="_TALr659yEeu1_9b-Ks1f5w" message="_TALr7Z9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:CombinedFragment" xmi:id="_TALr4p9yEeu1_9b-Ks1f5w" covered="_TALr659yEeu1_9b-Ks1f5w" interactionOperator="opt">
+        <operands xmi:id="_TALr459yEeu1_9b-Ks1f5w">
+          <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALr5J9yEeu1_9b-Ks1f5w" covered="_TALr659yEeu1_9b-Ks1f5w" message="_TALr8Z9yEeu1_9b-Ks1f5w"/>
+          <interactionConstraint xsi:type="ram:OpaqueExpression" xmi:id="_TALr5Z9yEeu1_9b-Ks1f5w" body="a == null" language="java"/>
+        </operands>
+      </fragments>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALr5p9yEeu1_9b-Ks1f5w" covered="_TALr659yEeu1_9b-Ks1f5w" message="_TALr859yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALr559yEeu1_9b-Ks1f5w" covered="_TALr7J9yEeu1_9b-Ks1f5w" message="_TALr859yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALr6J9yEeu1_9b-Ks1f5w" covered="_TALr7J9yEeu1_9b-Ks1f5w" message="_TALr9p9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALr6Z9yEeu1_9b-Ks1f5w" covered="_TALr659yEeu1_9b-Ks1f5w" message="_TALr9p9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALr6p9yEeu1_9b-Ks1f5w" covered="_TALr659yEeu1_9b-Ks1f5w" message="_TALr759yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALr659yEeu1_9b-Ks1f5w" represents="_TALr959yEeu1_9b-Ks1f5w" coveredBy="_TALr4Z9yEeu1_9b-Ks1f5w _TALr6p9yEeu1_9b-Ks1f5w _TALr4p9yEeu1_9b-Ks1f5w _TALr5J9yEeu1_9b-Ks1f5w _TALr5p9yEeu1_9b-Ks1f5w _TALr6Z9yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALr7J9yEeu1_9b-Ks1f5w" represents="_TALrpJ9yEeu1_9b-Ks1f5w" coveredBy="_TALr559yEeu1_9b-Ks1f5w _TALr6J9yEeu1_9b-Ks1f5w"/>
+      <messages xmi:id="_TALr7Z9yEeu1_9b-Ks1f5w" sendEvent="_TALr-J9yEeu1_9b-Ks1f5w" receiveEvent="_TALr4Z9yEeu1_9b-Ks1f5w" signature="_TALrm59yEeu1_9b-Ks1f5w">
+        <localProperties xsi:type="ram:Attribute" xmi:id="_TALr7p9yEeu1_9b-Ks1f5w" name="wasRemoved" type="_TALrqp9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALr759yEeu1_9b-Ks1f5w" sendEvent="_TALr6p9yEeu1_9b-Ks1f5w" receiveEvent="_TALr-Z9yEeu1_9b-Ks1f5w" signature="_TALrm59yEeu1_9b-Ks1f5w" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_TALr8J9yEeu1_9b-Ks1f5w" value="_TALr7p9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALr8Z9yEeu1_9b-Ks1f5w" sendEvent="_TALr5J9yEeu1_9b-Ks1f5w" receiveEvent="_TALr-p9yEeu1_9b-Ks1f5w" signature="_TALrm59yEeu1_9b-Ks1f5w" messageSort="reply">
+        <returns xsi:type="ram:LiteralBoolean" xmi:id="_TALr8p9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALr859yEeu1_9b-Ks1f5w" sendEvent="_TALr5p9yEeu1_9b-Ks1f5w" receiveEvent="_TALr559yEeu1_9b-Ks1f5w" signature="_TALrjp9yEeu1_9b-Ks1f5w" assignTo="_TALr7p9yEeu1_9b-Ks1f5w">
+        <arguments xmi:id="_TALr9J9yEeu1_9b-Ks1f5w" parameter="_TALrj59yEeu1_9b-Ks1f5w">
+          <value xsi:type="ram:ParameterValue" xmi:id="_TALr9Z9yEeu1_9b-Ks1f5w" parameter="_TALrnJ9yEeu1_9b-Ks1f5w"/>
+        </arguments>
+      </messages>
+      <messages xmi:id="_TALr9p9yEeu1_9b-Ks1f5w" sendEvent="_TALr6J9yEeu1_9b-Ks1f5w" receiveEvent="_TALr6Z9yEeu1_9b-Ks1f5w" signature="_TALrjp9yEeu1_9b-Ks1f5w" messageSort="reply"/>
+      <properties xmi:id="_TALr959yEeu1_9b-Ks1f5w" name="target" lowerBound="1" type="_TALrlp9yEeu1_9b-Ks1f5w"/>
+      <formalGates xmi:id="_TALr-J9yEeu1_9b-Ks1f5w" message="_TALr7Z9yEeu1_9b-Ks1f5w" name="in_removeSimple"/>
+      <formalGates xmi:id="_TALr-Z9yEeu1_9b-Ks1f5w" message="_TALr759yEeu1_9b-Ks1f5w" name="out_removeSimple"/>
+      <formalGates xmi:id="_TALr-p9yEeu1_9b-Ks1f5w" message="_TALr8Z9yEeu1_9b-Ks1f5w" name="out_removeSimple"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_TALr-59yEeu1_9b-Ks1f5w" specifies="_TALrl59yEeu1_9b-Ks1f5w">
+    <specification xmi:id="_TALr_J9yEeu1_9b-Ks1f5w">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALr_Z9yEeu1_9b-Ks1f5w" covered="_TALsCZ9yEeu1_9b-Ks1f5w" message="_TALsDJ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALr_p9yEeu1_9b-Ks1f5w" covered="_TALsCZ9yEeu1_9b-Ks1f5w" message="_TALsFJ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALr_59yEeu1_9b-Ks1f5w" covered="_TALsC59yEeu1_9b-Ks1f5w" message="_TALsFJ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsAJ9yEeu1_9b-Ks1f5w" covered="_TALsC59yEeu1_9b-Ks1f5w" message="_TALsF59yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsAZ9yEeu1_9b-Ks1f5w" covered="_TALsCZ9yEeu1_9b-Ks1f5w" message="_TALsF59yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:CombinedFragment" xmi:id="_TALsAp9yEeu1_9b-Ks1f5w" covered="_TALsCZ9yEeu1_9b-Ks1f5w" interactionOperator="opt">
+        <operands xmi:id="_TALsA59yEeu1_9b-Ks1f5w">
+          <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsBJ9yEeu1_9b-Ks1f5w" covered="_TALsCZ9yEeu1_9b-Ks1f5w" message="_TALsGJ9yEeu1_9b-Ks1f5w"/>
+          <interactionConstraint xsi:type="ram:OpaqueExpression" xmi:id="_TALsBZ9yEeu1_9b-Ks1f5w" body="contains" language="java"/>
+        </operands>
+      </fragments>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsBp9yEeu1_9b-Ks1f5w" covered="_TALsCZ9yEeu1_9b-Ks1f5w" message="_TALsEZ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsB59yEeu1_9b-Ks1f5w" covered="_TALsCp9yEeu1_9b-Ks1f5w" message="_TALsEZ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsCJ9yEeu1_9b-Ks1f5w" covered="_TALsCZ9yEeu1_9b-Ks1f5w" message="_TALsD59yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsCZ9yEeu1_9b-Ks1f5w" represents="_TALsGp9yEeu1_9b-Ks1f5w" coveredBy="_TALr_Z9yEeu1_9b-Ks1f5w _TALsCJ9yEeu1_9b-Ks1f5w _TALsBp9yEeu1_9b-Ks1f5w _TALr_p9yEeu1_9b-Ks1f5w _TALsAZ9yEeu1_9b-Ks1f5w _TALsAp9yEeu1_9b-Ks1f5w _TALsBJ9yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsCp9yEeu1_9b-Ks1f5w" represents="_TALrpJ9yEeu1_9b-Ks1f5w" coveredBy="_TALsB59yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsC59yEeu1_9b-Ks1f5w" represents="_TALrpJ9yEeu1_9b-Ks1f5w" coveredBy="_TALr_59yEeu1_9b-Ks1f5w _TALsAJ9yEeu1_9b-Ks1f5w"/>
+      <messages xmi:id="_TALsDJ9yEeu1_9b-Ks1f5w" sendEvent="_TALsG59yEeu1_9b-Ks1f5w" receiveEvent="_TALr_Z9yEeu1_9b-Ks1f5w" signature="_TALrl59yEeu1_9b-Ks1f5w">
+        <localProperties xsi:type="ram:Attribute" xmi:id="_TALsDZ9yEeu1_9b-Ks1f5w" name="added" type="_TALrqp9yEeu1_9b-Ks1f5w"/>
+        <localProperties xsi:type="ram:Attribute" xmi:id="_TALsDp9yEeu1_9b-Ks1f5w" name="contains" type="_TALrqp9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALsD59yEeu1_9b-Ks1f5w" sendEvent="_TALsCJ9yEeu1_9b-Ks1f5w" receiveEvent="_TALsHJ9yEeu1_9b-Ks1f5w" signature="_TALrl59yEeu1_9b-Ks1f5w" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_TALsEJ9yEeu1_9b-Ks1f5w" value="_TALsDZ9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALsEZ9yEeu1_9b-Ks1f5w" sendEvent="_TALsBp9yEeu1_9b-Ks1f5w" receiveEvent="_TALsB59yEeu1_9b-Ks1f5w" signature="_TALrh59yEeu1_9b-Ks1f5w" assignTo="_TALsDZ9yEeu1_9b-Ks1f5w">
+        <arguments xmi:id="_TALsEp9yEeu1_9b-Ks1f5w" parameter="_TALriJ9yEeu1_9b-Ks1f5w">
+          <value xsi:type="ram:ParameterValue" xmi:id="_TALsE59yEeu1_9b-Ks1f5w" parameter="_TALrmJ9yEeu1_9b-Ks1f5w"/>
+        </arguments>
+      </messages>
+      <messages xmi:id="_TALsFJ9yEeu1_9b-Ks1f5w" sendEvent="_TALr_p9yEeu1_9b-Ks1f5w" receiveEvent="_TALr_59yEeu1_9b-Ks1f5w" signature="_TALri59yEeu1_9b-Ks1f5w" assignTo="_TALsDp9yEeu1_9b-Ks1f5w">
+        <arguments xmi:id="_TALsFZ9yEeu1_9b-Ks1f5w" parameter="_TALrkp9yEeu1_9b-Ks1f5w">
+          <value xsi:type="ram:ParameterValue" xmi:id="_TALsFp9yEeu1_9b-Ks1f5w" parameter="_TALrmJ9yEeu1_9b-Ks1f5w"/>
+        </arguments>
+      </messages>
+      <messages xmi:id="_TALsF59yEeu1_9b-Ks1f5w" sendEvent="_TALsAJ9yEeu1_9b-Ks1f5w" receiveEvent="_TALsAZ9yEeu1_9b-Ks1f5w" signature="_TALri59yEeu1_9b-Ks1f5w" messageSort="reply"/>
+      <messages xmi:id="_TALsGJ9yEeu1_9b-Ks1f5w" sendEvent="_TALsBJ9yEeu1_9b-Ks1f5w" receiveEvent="_TALsHZ9yEeu1_9b-Ks1f5w" signature="_TALrl59yEeu1_9b-Ks1f5w" messageSort="reply">
+        <returns xsi:type="ram:LiteralBoolean" xmi:id="_TALsGZ9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <properties xmi:id="_TALsGp9yEeu1_9b-Ks1f5w" name="target" lowerBound="1" type="_TALrlp9yEeu1_9b-Ks1f5w"/>
+      <formalGates xmi:id="_TALsG59yEeu1_9b-Ks1f5w" message="_TALsDJ9yEeu1_9b-Ks1f5w" name="in_add"/>
+      <formalGates xmi:id="_TALsHJ9yEeu1_9b-Ks1f5w" message="_TALsD59yEeu1_9b-Ks1f5w" name="out_add"/>
+      <formalGates xmi:id="_TALsHZ9yEeu1_9b-Ks1f5w" message="_TALsGJ9yEeu1_9b-Ks1f5w" name="out_add"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_TALsHp9yEeu1_9b-Ks1f5w" specifies="_TALrnZ9yEeu1_9b-Ks1f5w">
+    <specification xmi:id="_TALsH59yEeu1_9b-Ks1f5w">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsIJ9yEeu1_9b-Ks1f5w" covered="_TALsJp9yEeu1_9b-Ks1f5w" message="_TALsKJ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsIZ9yEeu1_9b-Ks1f5w" covered="_TALsJp9yEeu1_9b-Ks1f5w" message="_TALsLJ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsIp9yEeu1_9b-Ks1f5w" covered="_TALsJ59yEeu1_9b-Ks1f5w" message="_TALsLJ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsI59yEeu1_9b-Ks1f5w" covered="_TALsJ59yEeu1_9b-Ks1f5w" message="_TALsL59yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsJJ9yEeu1_9b-Ks1f5w" covered="_TALsJp9yEeu1_9b-Ks1f5w" message="_TALsL59yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsJZ9yEeu1_9b-Ks1f5w" covered="_TALsJp9yEeu1_9b-Ks1f5w" message="_TALsKp9yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsJp9yEeu1_9b-Ks1f5w" represents="_TALsMJ9yEeu1_9b-Ks1f5w" coveredBy="_TALsIJ9yEeu1_9b-Ks1f5w _TALsJZ9yEeu1_9b-Ks1f5w _TALsIZ9yEeu1_9b-Ks1f5w _TALsJJ9yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsJ59yEeu1_9b-Ks1f5w" represents="_TALrpJ9yEeu1_9b-Ks1f5w" coveredBy="_TALsIp9yEeu1_9b-Ks1f5w _TALsI59yEeu1_9b-Ks1f5w"/>
+      <messages xmi:id="_TALsKJ9yEeu1_9b-Ks1f5w" sendEvent="_TALsMZ9yEeu1_9b-Ks1f5w" receiveEvent="_TALsIJ9yEeu1_9b-Ks1f5w" signature="_TALrnZ9yEeu1_9b-Ks1f5w">
+        <localProperties xsi:type="ram:Attribute" xmi:id="_TALsKZ9yEeu1_9b-Ks1f5w" name="removed" type="_TALrqp9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALsKp9yEeu1_9b-Ks1f5w" sendEvent="_TALsJZ9yEeu1_9b-Ks1f5w" receiveEvent="_TALsMp9yEeu1_9b-Ks1f5w" signature="_TALrnZ9yEeu1_9b-Ks1f5w" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_TALsK59yEeu1_9b-Ks1f5w" value="_TALsKZ9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALsLJ9yEeu1_9b-Ks1f5w" sendEvent="_TALsIZ9yEeu1_9b-Ks1f5w" receiveEvent="_TALsIp9yEeu1_9b-Ks1f5w" signature="_TALrjp9yEeu1_9b-Ks1f5w" assignTo="_TALsKZ9yEeu1_9b-Ks1f5w">
+        <arguments xmi:id="_TALsLZ9yEeu1_9b-Ks1f5w" parameter="_TALrj59yEeu1_9b-Ks1f5w">
+          <value xsi:type="ram:ParameterValue" xmi:id="_TALsLp9yEeu1_9b-Ks1f5w" parameter="_TALrnp9yEeu1_9b-Ks1f5w"/>
+        </arguments>
+      </messages>
+      <messages xmi:id="_TALsL59yEeu1_9b-Ks1f5w" sendEvent="_TALsI59yEeu1_9b-Ks1f5w" receiveEvent="_TALsJJ9yEeu1_9b-Ks1f5w" signature="_TALrjp9yEeu1_9b-Ks1f5w" messageSort="reply"/>
+      <properties xmi:id="_TALsMJ9yEeu1_9b-Ks1f5w" name="target" lowerBound="1" type="_TALrlp9yEeu1_9b-Ks1f5w"/>
+      <formalGates xmi:id="_TALsMZ9yEeu1_9b-Ks1f5w" message="_TALsKJ9yEeu1_9b-Ks1f5w" name="in_remove"/>
+      <formalGates xmi:id="_TALsMp9yEeu1_9b-Ks1f5w" message="_TALsKp9yEeu1_9b-Ks1f5w" name="out_remove"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_TALsM59yEeu1_9b-Ks1f5w" specifies="_TALroJ9yEeu1_9b-Ks1f5w">
+    <specification xmi:id="_TALsNJ9yEeu1_9b-Ks1f5w">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsNZ9yEeu1_9b-Ks1f5w" covered="_TALsO59yEeu1_9b-Ks1f5w" message="_TALsPZ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsNp9yEeu1_9b-Ks1f5w" covered="_TALsO59yEeu1_9b-Ks1f5w" message="_TALsQZ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsN59yEeu1_9b-Ks1f5w" covered="_TALsPJ9yEeu1_9b-Ks1f5w" message="_TALsQZ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsOJ9yEeu1_9b-Ks1f5w" covered="_TALsPJ9yEeu1_9b-Ks1f5w" message="_TALsRJ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsOZ9yEeu1_9b-Ks1f5w" covered="_TALsO59yEeu1_9b-Ks1f5w" message="_TALsRJ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsOp9yEeu1_9b-Ks1f5w" covered="_TALsO59yEeu1_9b-Ks1f5w" message="_TALsP59yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsO59yEeu1_9b-Ks1f5w" represents="_TALsRZ9yEeu1_9b-Ks1f5w" coveredBy="_TALsNZ9yEeu1_9b-Ks1f5w _TALsOp9yEeu1_9b-Ks1f5w _TALsNp9yEeu1_9b-Ks1f5w _TALsOZ9yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsPJ9yEeu1_9b-Ks1f5w" represents="_TALrpJ9yEeu1_9b-Ks1f5w" coveredBy="_TALsN59yEeu1_9b-Ks1f5w _TALsOJ9yEeu1_9b-Ks1f5w"/>
+      <messages xmi:id="_TALsPZ9yEeu1_9b-Ks1f5w" sendEvent="_TALsRp9yEeu1_9b-Ks1f5w" receiveEvent="_TALsNZ9yEeu1_9b-Ks1f5w" signature="_TALroJ9yEeu1_9b-Ks1f5w">
+        <localProperties xsi:type="ram:Attribute" xmi:id="_TALsPp9yEeu1_9b-Ks1f5w" name="contains" type="_TALrqp9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALsP59yEeu1_9b-Ks1f5w" sendEvent="_TALsOp9yEeu1_9b-Ks1f5w" receiveEvent="_TALsR59yEeu1_9b-Ks1f5w" signature="_TALroJ9yEeu1_9b-Ks1f5w" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_TALsQJ9yEeu1_9b-Ks1f5w" value="_TALsPp9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALsQZ9yEeu1_9b-Ks1f5w" sendEvent="_TALsNp9yEeu1_9b-Ks1f5w" receiveEvent="_TALsN59yEeu1_9b-Ks1f5w" signature="_TALrkZ9yEeu1_9b-Ks1f5w" assignTo="_TALsPp9yEeu1_9b-Ks1f5w">
+        <arguments xmi:id="_TALsQp9yEeu1_9b-Ks1f5w" parameter="_TALrkp9yEeu1_9b-Ks1f5w">
+          <value xsi:type="ram:ParameterValue" xmi:id="_TALsQ59yEeu1_9b-Ks1f5w" parameter="_TALroZ9yEeu1_9b-Ks1f5w"/>
+        </arguments>
+      </messages>
+      <messages xmi:id="_TALsRJ9yEeu1_9b-Ks1f5w" sendEvent="_TALsOJ9yEeu1_9b-Ks1f5w" receiveEvent="_TALsOZ9yEeu1_9b-Ks1f5w" signature="_TALrkZ9yEeu1_9b-Ks1f5w" messageSort="reply"/>
+      <properties xmi:id="_TALsRZ9yEeu1_9b-Ks1f5w" name="target" lowerBound="1" type="_TALrlp9yEeu1_9b-Ks1f5w"/>
+      <formalGates xmi:id="_TALsRp9yEeu1_9b-Ks1f5w" message="_TALsPZ9yEeu1_9b-Ks1f5w" name="in_contains"/>
+      <formalGates xmi:id="_TALsR59yEeu1_9b-Ks1f5w" message="_TALsP59yEeu1_9b-Ks1f5w" name="out_contains"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_TALsSJ9yEeu1_9b-Ks1f5w" specifies="_TALrop9yEeu1_9b-Ks1f5w">
+    <specification xmi:id="_TALsSZ9yEeu1_9b-Ks1f5w">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsSp9yEeu1_9b-Ks1f5w" covered="_TALsUJ9yEeu1_9b-Ks1f5w" message="_TALsUp9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsS59yEeu1_9b-Ks1f5w" covered="_TALsUJ9yEeu1_9b-Ks1f5w" message="_TALsVp9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsTJ9yEeu1_9b-Ks1f5w" covered="_TALsUZ9yEeu1_9b-Ks1f5w" message="_TALsVp9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsTZ9yEeu1_9b-Ks1f5w" covered="_TALsUZ9yEeu1_9b-Ks1f5w" message="_TALsV59yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsTp9yEeu1_9b-Ks1f5w" covered="_TALsUJ9yEeu1_9b-Ks1f5w" message="_TALsV59yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsT59yEeu1_9b-Ks1f5w" covered="_TALsUJ9yEeu1_9b-Ks1f5w" message="_TALsVJ9yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsUJ9yEeu1_9b-Ks1f5w" represents="_TALsWJ9yEeu1_9b-Ks1f5w" coveredBy="_TALsSp9yEeu1_9b-Ks1f5w _TALsT59yEeu1_9b-Ks1f5w _TALsS59yEeu1_9b-Ks1f5w _TALsTp9yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsUZ9yEeu1_9b-Ks1f5w" represents="_TALrpJ9yEeu1_9b-Ks1f5w" coveredBy="_TALsTJ9yEeu1_9b-Ks1f5w _TALsTZ9yEeu1_9b-Ks1f5w"/>
+      <messages xmi:id="_TALsUp9yEeu1_9b-Ks1f5w" sendEvent="_TALsWZ9yEeu1_9b-Ks1f5w" receiveEvent="_TALsSp9yEeu1_9b-Ks1f5w" signature="_TALrop9yEeu1_9b-Ks1f5w">
+        <localProperties xsi:type="ram:Attribute" xmi:id="_TALsU59yEeu1_9b-Ks1f5w" name="size" type="_TALrq59yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALsVJ9yEeu1_9b-Ks1f5w" sendEvent="_TALsT59yEeu1_9b-Ks1f5w" receiveEvent="_TALsWp9yEeu1_9b-Ks1f5w" signature="_TALrop9yEeu1_9b-Ks1f5w" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_TALsVZ9yEeu1_9b-Ks1f5w" value="_TALsU59yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALsVp9yEeu1_9b-Ks1f5w" sendEvent="_TALsS59yEeu1_9b-Ks1f5w" receiveEvent="_TALsTJ9yEeu1_9b-Ks1f5w" signature="_TALrjZ9yEeu1_9b-Ks1f5w" assignTo="_TALsU59yEeu1_9b-Ks1f5w"/>
+      <messages xmi:id="_TALsV59yEeu1_9b-Ks1f5w" sendEvent="_TALsTZ9yEeu1_9b-Ks1f5w" receiveEvent="_TALsTp9yEeu1_9b-Ks1f5w" signature="_TALrjZ9yEeu1_9b-Ks1f5w" messageSort="reply"/>
+      <properties xmi:id="_TALsWJ9yEeu1_9b-Ks1f5w" name="target" lowerBound="1" type="_TALrlp9yEeu1_9b-Ks1f5w"/>
+      <formalGates xmi:id="_TALsWZ9yEeu1_9b-Ks1f5w" message="_TALsUp9yEeu1_9b-Ks1f5w" name="in_size"/>
+      <formalGates xmi:id="_TALsWp9yEeu1_9b-Ks1f5w" message="_TALsVJ9yEeu1_9b-Ks1f5w" name="out_size"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_TALsW59yEeu1_9b-Ks1f5w" specifies="_TALro59yEeu1_9b-Ks1f5w">
+    <specification xmi:id="_TALsXJ9yEeu1_9b-Ks1f5w">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsXZ9yEeu1_9b-Ks1f5w" covered="_TALsX59yEeu1_9b-Ks1f5w" message="_TALsYJ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsXp9yEeu1_9b-Ks1f5w" covered="_TALsX59yEeu1_9b-Ks1f5w" message="_TALsYZ9yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsX59yEeu1_9b-Ks1f5w" represents="_TALsY59yEeu1_9b-Ks1f5w" coveredBy="_TALsXZ9yEeu1_9b-Ks1f5w _TALsXp9yEeu1_9b-Ks1f5w"/>
+      <messages xmi:id="_TALsYJ9yEeu1_9b-Ks1f5w" sendEvent="_TALsZJ9yEeu1_9b-Ks1f5w" receiveEvent="_TALsXZ9yEeu1_9b-Ks1f5w" signature="_TALro59yEeu1_9b-Ks1f5w"/>
+      <messages xmi:id="_TALsYZ9yEeu1_9b-Ks1f5w" sendEvent="_TALsXp9yEeu1_9b-Ks1f5w" receiveEvent="_TALsZZ9yEeu1_9b-Ks1f5w" signature="_TALro59yEeu1_9b-Ks1f5w" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_TALsYp9yEeu1_9b-Ks1f5w" value="_TALrpJ9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <properties xmi:id="_TALsY59yEeu1_9b-Ks1f5w" name="target" lowerBound="1" type="_TALrlp9yEeu1_9b-Ks1f5w"/>
+      <formalGates xmi:id="_TALsZJ9yEeu1_9b-Ks1f5w" message="_TALsYJ9yEeu1_9b-Ks1f5w" name="in_getAssociated"/>
+      <formalGates xmi:id="_TALsZZ9yEeu1_9b-Ks1f5w" message="_TALsYZ9yEeu1_9b-Ks1f5w" name="out_getAssociated"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_TALsZp9yEeu1_9b-Ks1f5w" specifies="_TALrn59yEeu1_9b-Ks1f5w">
+    <specification xmi:id="_TALsZ59yEeu1_9b-Ks1f5w">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsaJ9yEeu1_9b-Ks1f5w" covered="_TALsbJ9yEeu1_9b-Ks1f5w" message="_TALsbp9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsaZ9yEeu1_9b-Ks1f5w" covered="_TALsbJ9yEeu1_9b-Ks1f5w" message="_TALscZ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsap9yEeu1_9b-Ks1f5w" covered="_TALsbZ9yEeu1_9b-Ks1f5w" message="_TALscZ9yEeu1_9b-Ks1f5w"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_TALsa59yEeu1_9b-Ks1f5w" covered="_TALsbJ9yEeu1_9b-Ks1f5w" message="_TALscJ9yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsbJ9yEeu1_9b-Ks1f5w" represents="_TALscp9yEeu1_9b-Ks1f5w" coveredBy="_TALsaJ9yEeu1_9b-Ks1f5w _TALsa59yEeu1_9b-Ks1f5w _TALsaZ9yEeu1_9b-Ks1f5w"/>
+      <lifelines xmi:id="_TALsbZ9yEeu1_9b-Ks1f5w" represents="_TALsb59yEeu1_9b-Ks1f5w" coveredBy="_TALsap9yEeu1_9b-Ks1f5w"/>
+      <messages xmi:id="_TALsbp9yEeu1_9b-Ks1f5w" sendEvent="_TALsc59yEeu1_9b-Ks1f5w" receiveEvent="_TALsaJ9yEeu1_9b-Ks1f5w" signature="_TALrn59yEeu1_9b-Ks1f5w" messageSort="createMessage">
+        <localProperties xsi:type="ram:Reference" xmi:id="_TALsb59yEeu1_9b-Ks1f5w" name="collection" lowerBound="1" type="_TALrhZ9yEeu1_9b-Ks1f5w"/>
+      </messages>
+      <messages xmi:id="_TALscJ9yEeu1_9b-Ks1f5w" sendEvent="_TALsa59yEeu1_9b-Ks1f5w" receiveEvent="_TALsdJ9yEeu1_9b-Ks1f5w" signature="_TALrn59yEeu1_9b-Ks1f5w" messageSort="reply"/>
+      <messages xmi:id="_TALscZ9yEeu1_9b-Ks1f5w" sendEvent="_TALsaZ9yEeu1_9b-Ks1f5w" receiveEvent="_TALsap9yEeu1_9b-Ks1f5w" signature="_TALrkJ9yEeu1_9b-Ks1f5w" assignTo="_TALsb59yEeu1_9b-Ks1f5w" messageSort="createMessage"/>
+      <properties xmi:id="_TALscp9yEeu1_9b-Ks1f5w" name="target" lowerBound="1" type="_TALrlp9yEeu1_9b-Ks1f5w"/>
+      <formalGates xmi:id="_TALsc59yEeu1_9b-Ks1f5w" message="_TALsbp9yEeu1_9b-Ks1f5w" name="in_create"/>
+      <formalGates xmi:id="_TALsdJ9yEeu1_9b-Ks1f5w" message="_TALscJ9yEeu1_9b-Ks1f5w" name="out_create"/>
+    </specification>
+  </messageViews>
+  <layout xmi:id="_TALsdZ9yEeu1_9b-Ks1f5w">
+    <containers xmi:id="_TALsdp9yEeu1_9b-Ks1f5w" key="_TALrgZ9yEeu1_9b-Ks1f5w"/>
+  </layout>
+  <wovenAspects xmi:id="_TALsd59yEeu1_9b-Ks1f5w" name="Association">
+    <comesFrom href="Association.ram#_mDv4YEQ1EeSSfO86-u_zzA"/>
+    <wovenElements xmi:id="_TALseJ9yEeu1_9b-Ks1f5w" key="_TALrlp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALseZ9yEeu1_9b-Ks1f5w" key="_TALrgp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_TALsep9yEeu1_9b-Ks1f5w" name="Many">
+    <comesFrom href="Many.ram#_4opdQH2BEeWIy5MXlHNV-w"/>
+    <wovenElements xmi:id="_TALse59yEeu1_9b-Ks1f5w" key="_TALro59yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Many.ram#_ZgQMcH2CEeWIy5MXlHNV-w"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsfJ9yEeu1_9b-Ks1f5w" key="_TALrn59yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Many.ram#_nurMgOq7EeWy6cPK1HfUhA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsfZ9yEeu1_9b-Ks1f5w" key="_TALrhZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Many.ram#_4opdRH2BEeWIy5MXlHNV-w"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsfp9yEeu1_9b-Ks1f5w" key="_TALrjZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Many.ram#_lA1TsH2CEeWIy5MXlHNV-w"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsf59yEeu1_9b-Ks1f5w" key="_TALrlp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Many.ram#_4opdQ32BEeWIy5MXlHNV-w"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsgJ9yEeu1_9b-Ks1f5w" key="_TALrgp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Many.ram#_4opdQn2BEeWIy5MXlHNV-w"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsgZ9yEeu1_9b-Ks1f5w" key="_TALroJ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Many.ram#_LDkgcH2CEeWIy5MXlHNV-w"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsgp9yEeu1_9b-Ks1f5w" key="_TALrkJ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Many.ram#_kCfOoOq7EeWy6cPK1HfUhA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsg59yEeu1_9b-Ks1f5w" key="_TALrkZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Many.ram#_h0EcwH2CEeWIy5MXlHNV-w"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALshJ9yEeu1_9b-Ks1f5w" key="_TALrop9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Many.ram#_YXIBMH2CEeWIy5MXlHNV-w"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALshZ9yEeu1_9b-Ks1f5w" key="_TALrpZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Many.ram#_cPYFIH2CEeWIy5MXlHNV-w"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_TALshp9yEeu1_9b-Ks1f5w" name="ManyOpposite">
+    <comesFrom href="ManyOpposite.ram#_jG4CQH2fEeW19p3ERnXRPg"/>
+    <wovenElements xmi:id="_TALsh59yEeu1_9b-Ks1f5w" key="_TALrgp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="ManyOpposite.ram#_jG4CRH2fEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsiJ9yEeu1_9b-Ks1f5w" key="_TALrlp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="ManyOpposite.ram#_jG4CQn2fEeW19p3ERnXRPg"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_TALsiZ9yEeu1_9b-Ks1f5w" name="Plain">
+    <comesFrom href="Plain.ram#_BqUAIH2EEeWIy5MXlHNV-w"/>
+    <wovenElements xmi:id="_TALsip9yEeu1_9b-Ks1f5w" key="_TALrl59yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Plain.ram#_WIk8oH2bEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsi59yEeu1_9b-Ks1f5w" key="_TALrhZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Plain.ram#_BqUAI32EEeWIy5MXlHNV-w"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsjJ9yEeu1_9b-Ks1f5w" key="_TALrjp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Plain.ram#_jaVGkH2bEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsjZ9yEeu1_9b-Ks1f5w" key="_TALrgp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Plain.ram#_PqLZUKW9EeW5vr47q3SVSw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsjp9yEeu1_9b-Ks1f5w" key="_TALrh59yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Plain.ram#_hsEN8H2bEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsj59yEeu1_9b-Ks1f5w" key="_TALrnZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Plain.ram#_dToOEH2bEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALskJ9yEeu1_9b-Ks1f5w" key="_TALrpZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Plain.ram#_8dKT4JN-EeWuj6cnGIk9Uw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALskZ9yEeu1_9b-Ks1f5w" key="_TALrlp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Plain.ram#_BqUAIn2EEeWIy5MXlHNV-w"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_TALskp9yEeu1_9b-Ks1f5w" name="PlainBidirectional">
+    <comesFrom href="PlainBidirectional.ram#_jaNdwJelEeWDJ7UGl9szkQ"/>
+    <wovenElements xmi:id="_TALsk59yEeu1_9b-Ks1f5w" key="_TALrm59yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="PlainBidirectional.ram#_AMevQJemEeWDJ7UGl9szkQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALslJ9yEeu1_9b-Ks1f5w" key="_TALrlp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="PlainBidirectional.ram#_jaNdwpelEeWDJ7UGl9szkQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALslZ9yEeu1_9b-Ks1f5w" key="_TALrgp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="PlainBidirectional.ram#_s1va8KXFEeW5vr47q3SVSw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALslp9yEeu1_9b-Ks1f5w" key="_TALrmZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="PlainBidirectional.ram#_-VmGIJelEeWDJ7UGl9szkQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_TALsl59yEeu1_9b-Ks1f5w" name="Unordered">
+    <comesFrom href="Unordered.ram#_Z3l1INxZEeOLe_W5cUN4CA"/>
+    <wovenElements xmi:id="_TALsmJ9yEeu1_9b-Ks1f5w" key="_TALriZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Plain.ram#_jaVGkH2bEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsmZ9yEeu1_9b-Ks1f5w" key="_TALrhp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Many.ram#_kCfOoOq7EeWy6cPK1HfUhA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsmp9yEeu1_9b-Ks1f5w" key="_TALrhZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Unordered.ram#_lY4hQAvJEeW97eUarwQSdA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsm59yEeu1_9b-Ks1f5w" key="_TALrh59yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Plain.ram#_hsEN8H2bEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsnJ9yEeu1_9b-Ks1f5w" key="_TALrjZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Many.ram#_lA1TsH2CEeWIy5MXlHNV-w"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsnZ9yEeu1_9b-Ks1f5w" key="_TALri59yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="Many.ram#_h0EcwH2CEeWIy5MXlHNV-w"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsnp9yEeu1_9b-Ks1f5w" key="_TALrgp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Unordered.ram#_-QdEcMFHEeWDZKepm4PK7A"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsn59yEeu1_9b-Ks1f5w" key="_TALrlp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="Unordered.ram#_lckLsOBgEeO79rVsrluJOQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_TALsoJ9yEeu1_9b-Ks1f5w" name="UniquePlain">
+    <comesFrom href="UniquePlain.ram#_ylEqQJipEeWQVPFj3dJr6A"/>
+    <wovenElements xmi:id="_TALsoZ9yEeu1_9b-Ks1f5w" key="_TALrlp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="UniquePlain.ram#_ylEqQpipEeWQVPFj3dJr6A"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsop9yEeu1_9b-Ks1f5w" key="_TALrgp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="UniquePlain.ram#_g0U5gLuoEeW028A7arQj9g"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALso59yEeu1_9b-Ks1f5w" key="_TALrl59yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="UniquePlain.ram#_4JJW0JipEeWQVPFj3dJr6A"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_TALspJ9yEeu1_9b-Ks1f5w" name="HashSet">
+    <comesFrom href="HashSet.ram#_01Jl4NrnEeOwm7v1Cdkh_g"/>
+    <wovenElements xmi:id="_TALspZ9yEeu1_9b-Ks1f5w" key="_TALrh59yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="HashSet.ram#_v3ZUMMFHEeWDZKepm4PK7A"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALspp9yEeu1_9b-Ks1f5w" key="_TALrhp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="HashSet.ram#_VqSxMMLTEeWjVKFIG7JTNA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsp59yEeu1_9b-Ks1f5w" key="_TALri59yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="HashSet.ram#_xEVocMFHEeWDZKepm4PK7A"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsqJ9yEeu1_9b-Ks1f5w" key="_TALrgp9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Class" href="HashSet.ram#_rwFgkMFHEeWDZKepm4PK7A"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsqZ9yEeu1_9b-Ks1f5w" key="_TALrjZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="HashSet.ram#_yBDIUMFHEeWDZKepm4PK7A"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsqp9yEeu1_9b-Ks1f5w" key="_TALrhJ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:ImplementationClass" href="HashSet.ram#_01Jl7NrnEeOwm7v1Cdkh_g"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsq59yEeu1_9b-Ks1f5w" key="_TALrhZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:ImplementationClass" href="HashSet.ram#_uSTlsMFHEeWDZKepm4PK7A"/>
+    </wovenElements>
+    <wovenElements xmi:id="_TALsrJ9yEeu1_9b-Ks1f5w" key="_TALriZ9yEeu1_9b-Ks1f5w">
+      <value xsi:type="ram:Operation" href="HashSet.ram#_wbAXkMFHEeWDZKepm4PK7A"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_TALsrZ9yEeu1_9b-Ks1f5w" name="UniquePlainBidirectional">
+    <comesFrom href="UniquePlainBidirectional.ram#_41L60JkUEeWdyuYpYIVtbw"/>
+  </wovenAspects>
+</ram:Aspect>

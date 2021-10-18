@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_67dsEKREEeuCzcakKy80Jg" name="KeyStorage">
+  <modelReuses xmi:id="_kKBH4KXhEeuNQLydak9XtA">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_kKBH4aXhEeuNQLydak9XtA">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsgKXhEeuNQLydak9XtA"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_kKBH4qXhEeuNQLydak9XtA" to="_67dsNaREEeuCzcakKy80Jg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsmqXhEeuNQLydak9XtA"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_kKBH46XhEeuNQLydak9XtA" to="_67dsIKREEeuCzcakKy80Jg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsm6XhEeuNQLydak9XtA"/>
+        <operationMappings xmi:id="_kKBH5KXhEeuNQLydak9XtA" to="_kKTbwKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsnKXhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH5aXhEeuNQLydak9XtA" to="_kKTbwaXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsnaXhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH5qXhEeuNQLydak9XtA" to="_kKUC0KXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsn6XhEeuNQLydak9XtA"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_kKBH56XhEeuNQLydak9XtA" to="_67dsIqREEeuCzcakKy80Jg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsgqXhEeuNQLydak9XtA"/>
+        <operationMappings xmi:id="_kKBH6KXhEeuNQLydak9XtA" to="_kKGAYKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsg6XhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH6aXhEeuNQLydak9XtA" to="_kKHOgKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzshqXhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH6qXhEeuNQLydak9XtA" to="_kKH1kKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsiaXhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH66XhEeuNQLydak9XtA" to="_kKJDsKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsjKXhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH7KXhEeuNQLydak9XtA" to="_kKJqwKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsjqXhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH7aXhEeuNQLydak9XtA" to="_kKK44KXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzskKXhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH7qXhEeuNQLydak9XtA" to="_kKMHAKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzskqXhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH76XhEeuNQLydak9XtA" to="_kKMuEKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzslKXhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH8KXhEeuNQLydak9XtA" to="_kKNVIKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzslqXhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH8aXhEeuNQLydak9XtA" to="_kKN8MKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsl6XhEeuNQLydak9XtA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKBH8qXhEeuNQLydak9XtA" to="_kKOjQKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsmKXhEeuNQLydak9XtA"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="EncryptionPart2.core#_kKBH86XhEeuNQLydak9XtA"/>
+  </modelReuses>
+  <modelReuses xmi:id="_kKXGIKXhEeuNQLydak9XtA">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_kKXGIaXhEeuNQLydak9XtA">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_LztdwJ9yEeu1_9b-Ks1f5w"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_kKXGIqXhEeuNQLydak9XtA" to="_67dsIqREEeuCzcakKy80Jg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_Lztdx59yEeu1_9b-Ks1f5w"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_kKXGI6XhEeuNQLydak9XtA" to="_67dsIKREEeuCzcakKy80Jg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_Lztdwp9yEeu1_9b-Ks1f5w"/>
+        <operationMappings xmi:id="_kKXGJKXhEeuNQLydak9XtA" to="_kKTbwKXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_Lztdw59yEeu1_9b-Ks1f5w"/>
+        </operationMappings>
+        <operationMappings xmi:id="_kKXGJaXhEeuNQLydak9XtA" to="_kKTbwaXhEeuNQLydak9XtA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_LztdxJ9yEeu1_9b-Ks1f5w"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="EncryptionPart2.core#_kKXGJqXhEeuNQLydak9XtA"/>
+  </modelReuses>
+  <realizes href="EncryptionPart2.core#_SjTZ4J-AEeuUlr6vFoqk0w"/>
+  <coreConcern href="EncryptionPart2.core#_14lDMJ9xEeu1_9b-Ks1f5w"/>
+  <structuralView xmi:id="_67dsH6REEeuCzcakKy80Jg">
+    <classes xsi:type="ram:Class" xmi:id="_67dsIKREEeuCzcakKy80Jg" name="KEY" superTypes="_67dsNKREEeuCzcakKy80Jg">
+      <operations xmi:id="_kKTbwKXhEeuNQLydak9XtA" name="getMyKeyStorage" extendedVisibility="package" returnType="_67dsIqREEeuCzcakKy80Jg"/>
+      <operations xmi:id="_kKTbwaXhEeuNQLydak9XtA" name="setMyKeyStorage" extendedVisibility="package" returnType="_67dsOqREEeuCzcakKy80Jg">
+        <parameters xmi:id="_kKTbwqXhEeuNQLydak9XtA" name="a" type="_67dsIqREEeuCzcakKy80Jg"/>
+      </operations>
+      <operations xmi:id="_kKUC0KXhEeuNQLydak9XtA" name="setSimpleMyKeyStorage" extendedVisibility="protected" returnType="_67dsOqREEeuCzcakKy80Jg">
+        <parameters xmi:id="_kKUC0aXhEeuNQLydak9XtA" name="newObject" type="_67dsIqREEeuCzcakKy80Jg"/>
+      </operations>
+      <associationEnds xmi:id="_67dsIaREEeuCzcakKy80Jg" name="myKeyStorage" lowerBound="1" assoc="_67dsN6REEeuCzcakKy80Jg" featureSelection="_kKXGIKXhEeuNQLydak9XtA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_67dsIqREEeuCzcakKy80Jg" name="KeyStorage">
+      <operations xmi:id="_kKGAYKXhEeuNQLydak9XtA" name="putMyKEY" extendedVisibility="package" returnType="_67dsIKREEeuCzcakKy80Jg">
+        <parameters xmi:id="_kKGAYaXhEeuNQLydak9XtA" name="k" type="_67dsNaREEeuCzcakKy80Jg"/>
+        <parameters xmi:id="_kKGAYqXhEeuNQLydak9XtA" name="a" type="_67dsIKREEeuCzcakKy80Jg"/>
+      </operations>
+      <operations xmi:id="_kKHOgKXhEeuNQLydak9XtA" name="putSimpleMyKEY" extendedVisibility="protected" returnType="_67dsOqREEeuCzcakKy80Jg">
+        <parameters xmi:id="_kKHOgaXhEeuNQLydak9XtA" name="k" type="_67dsNaREEeuCzcakKy80Jg"/>
+        <parameters xmi:id="_kKHOgqXhEeuNQLydak9XtA" name="v" type="_67dsIKREEeuCzcakKy80Jg"/>
+      </operations>
+      <operations xmi:id="_kKH1kKXhEeuNQLydak9XtA" name="putMyKEY" extendedVisibility="package" returnType="_67dsOqREEeuCzcakKy80Jg">
+        <parameters xmi:id="_kKH1kaXhEeuNQLydak9XtA" name="k" type="_67dsNaREEeuCzcakKy80Jg"/>
+        <parameters xmi:id="_kKH1kqXhEeuNQLydak9XtA" name="a" type="_67dsIKREEeuCzcakKy80Jg"/>
+      </operations>
+      <operations xmi:id="_kKJDsKXhEeuNQLydak9XtA" name="removeMyKEY" extendedVisibility="package" returnType="_67dsOqREEeuCzcakKy80Jg">
+        <parameters xmi:id="_kKJDsaXhEeuNQLydak9XtA" name="k" type="_67dsNaREEeuCzcakKy80Jg"/>
+      </operations>
+      <operations xmi:id="_kKJqwKXhEeuNQLydak9XtA" name="getMyKEY" extendedVisibility="package" returnType="_67dsIKREEeuCzcakKy80Jg">
+        <parameters xmi:id="_kKJqwaXhEeuNQLydak9XtA" name="k" type="_67dsNaREEeuCzcakKy80Jg"/>
+      </operations>
+      <operations xmi:id="_kKK44KXhEeuNQLydak9XtA" name="containsKeyMyKEY" extendedVisibility="package" returnType="_67dsOqREEeuCzcakKy80Jg">
+        <parameters xmi:id="_kKK44aXhEeuNQLydak9XtA" name="k" type="_67dsNaREEeuCzcakKy80Jg"/>
+      </operations>
+      <operations xmi:id="_kKMHAKXhEeuNQLydak9XtA" name="containsValueMyKEY" extendedVisibility="package" returnType="_67dsOqREEeuCzcakKy80Jg">
+        <parameters xmi:id="_kKMHAaXhEeuNQLydak9XtA" name="a" type="_67dsIKREEeuCzcakKy80Jg"/>
+      </operations>
+      <operations xmi:id="_kKMuEKXhEeuNQLydak9XtA" name="getKeyMyKEY" extendedVisibility="package" returnType="_67dsNaREEeuCzcakKy80Jg">
+        <parameters xmi:id="_kKMuEaXhEeuNQLydak9XtA" name="v" type="_67dsIKREEeuCzcakKy80Jg"/>
+      </operations>
+      <operations xmi:id="_kKNVIKXhEeuNQLydak9XtA" name="createMyKEY" extendedVisibility="package" returnType="_67dsIqREEeuCzcakKy80Jg" operationType="Constructor"/>
+      <operations xmi:id="_kKN8MKXhEeuNQLydak9XtA" name="sizeOfMyKEY" extendedVisibility="package" returnType="_67dsO6REEeuCzcakKy80Jg"/>
+      <operations xmi:id="_kKOjQKXhEeuNQLydak9XtA" name="getMyKEY" extendedVisibility="package">
+        <returnType xsi:type="ram:ImplementationClass" href="Reused_Association/Woven_Association_Association_HashMap_KeyIndexedBidirectional_KeyIndexedToOne_Many.ram#_kJzsoqXhEeuNQLydak9XtA"/>
+      </operations>
+      <associationEnds xmi:id="_67dsM6REEeuCzcakKy80Jg" name="myKEY" upperBound="-1" assoc="_67dsN6REEeuCzcakKy80Jg" featureSelection="_kKBH4KXhEeuNQLydak9XtA"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_67dsNKREEeuCzcakKy80Jg" name="KeyPair" instanceClassName="java.security.KeyPair"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_67dsNaREEeuCzcakKy80Jg" name="PublicKey" instanceClassName="java.security.PublicKey" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_67dsNqREEeuCzcakKy80Jg" name="PrivateKey" instanceClassName="java.security.PrivateKey" interface="true"/>
+    <associations xmi:id="_67dsN6REEeuCzcakKy80Jg" name="KEY_KeyStorage" ends="_67dsIaREEeuCzcakKy80Jg _67dsM6REEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RVoid" xmi:id="_67dsOKREEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RAny" xmi:id="_67dsOaREEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_67dsOqREEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RInt" xmi:id="_67dsO6REEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RChar" xmi:id="_67dsPKREEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RString" xmi:id="_67dsPaREEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_67dsPqREEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_67dsP6REEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RLong" xmi:id="_67dsQKREEeuCzcakKy80Jg"/>
+    <types xsi:type="ram:RByte" xmi:id="_67dsQaREEeuCzcakKy80Jg"/>
+  </structuralView>
+  <instantiations xmi:id="_67dsQqREEeuCzcakKy80Jg">
+    <source xsi:type="ram:Aspect" href="EncryptionPart2.ram#_UHpC0J9yEeu1_9b-Ks1f5w"/>
+    <mappings xsi:type="ram:ClassifierMapping" xmi:id="__bxJMKXeEeuEHalRY4z9OQ" to="_67dsIKREEeuCzcakKy80Jg">
+      <from xsi:type="ram:Class" href="EncryptionPart2.ram#_UHpp-J9yEeu1_9b-Ks1f5w"/>
+    </mappings>
+  </instantiations>
+  <layout xmi:id="_67dsQ6REEeuCzcakKy80Jg">
+    <containers xmi:id="_67dsRKREEeuCzcakKy80Jg" key="_67dsH6REEeuCzcakKy80Jg">
+      <value xmi:id="_67dsRaREEeuCzcakKy80Jg" key="_67dsIKREEeuCzcakKy80Jg">
+        <value xmi:id="_67dsRqREEeuCzcakKy80Jg" x="754.0" y="300.0"/>
+      </value>
+      <value xmi:id="_67dsR6REEeuCzcakKy80Jg" key="_67dsIqREEeuCzcakKy80Jg">
+        <value xmi:id="_67dsSKREEeuCzcakKy80Jg" x="1599.6183" y="300.0"/>
+      </value>
+      <value xmi:id="_67dsSaREEeuCzcakKy80Jg" key="_67dsNKREEeuCzcakKy80Jg">
+        <value xmi:id="_67dsSqREEeuCzcakKy80Jg" x="754.0" y="104.99985"/>
+      </value>
+      <value xmi:id="_67dsS6REEeuCzcakKy80Jg" key="_67dsNaREEeuCzcakKy80Jg">
+        <value xmi:id="_67dsTKREEeuCzcakKy80Jg" x="290.3313" y="472.00012"/>
+      </value>
+      <value xmi:id="_67dsTaREEeuCzcakKy80Jg" key="_67dsNqREEeuCzcakKy80Jg">
+        <value xmi:id="_67dsTqREEeuCzcakKy80Jg" x="290.5" y="591.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
